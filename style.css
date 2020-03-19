@@ -371,27 +371,6 @@ h1 {
 
 
 /****** ********
-**** NAV BAR ****
-******* ********/
-  .navbar {
-    background:#6ab446;
-  }
-  .nav-link,
-  .navbar-brand {
-    color: #fff;
-    cursor: pointer;
-  }
-  .nav-link {
-    margin-right: 1em !important;
-  }
-  .nav-link:hover {
-    color: #000;
-  }
-  .navbar-collapse {
-    justify-content: flex-end;
-  }
-
-/****** ********
 **** HEADER ****
 ******* ********/
 .header {
@@ -409,6 +388,27 @@ h1 {
     left: 0;
     top: 0;
     background: rgba(0, 0, 0, 0.6);
+}
+
+/****** ********
+**** NAV BAR ****
+******* ********/
+.navbar {
+    background:#6ab446;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
 }
 
 
