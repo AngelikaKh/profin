@@ -16,77 +16,83 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 </head>
-<body>
-    <!-- ********* HEADER ********* -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <header class="page-header header container-fluid">
+<!-- ********* HEADER -> NAV ********* -->
+      <header class="page-header header align-items-center fixed-top" id="section1">
+
         <nav class="navbar navbar-expand-md">
-          <a class="navbar-brand" href="#">Logo</a>
-          <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+          <a class="navbar-brand" href="#" title="Profin">PROFIN</a>
+          <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-
-          <div class="collapse navbar-collapse" id="main-navigation">
+      
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="#section1">Home</a>
               </li>
+                <div class="dropdown">
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                      </div>
+                  </li>
+                </div>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#section3">Contact</a>
               </li>
             </ul>
           </div>
         </nav>
-    <div class="overlay"></div>
 
-    </header>
+      </header>
 
+<!-- ********* MAIN SECTION ********* -->
+      <div class="overlay"></div>
 
+      <div class="main container-fluid text-center">
+          <div class="title">
+            <h1 class="h1-responsive">Խնայե‘ք Ձեր ժամանակը <br> Դիմե‘ք մեր պրոֆեսիոնալ մասնագետներին</h1>
+          </div>
 
-    <div class="description">
-        <h1>Խնայե‘ք Ձեր ժամանակը <br>
-          Դիմե‘ք մեր պրոֆեսիոնալ մասնագետներին</h1>
-        <p>Հաշվապահական և ֆինանսական ծառայությունների ոլորտում մասնագիտացած «Պրոֆին» ընկերության ACCA միջազգային որակավորում ունեցող բարձրակարգ մասնագետները, առաջնորդվելով հաճախորդի գաղտնիության և օբյեկտիվության սկզբունքով, պատրաստ են մատուցել բարձրակարգ հաշվապահական ծառայություններ և խորհրդատվություն ամենատարբեր ոլորտներում գործունեություն ծավալող ընկերությունների։</p>
-        <button class="glow-on-hover btn btn-outline-secondary btn-lg">Իմանալ ավելին</button>
-    </div>
+          <div class="description align-items-center">
+              <p class="text-center">Հաշվապահական և ֆինանսական ծառայությունների ոլորտում մասնագիտացած <br> «Պրոֆին» ընկերության ACCA միջազգային որակավորում ունեցող <br> բարձրակարգ մասնագետները, առաջնորդվելով հաճախորդի գաղտնիության <br>  և օբյեկտիվության սկզբունքով, պատրաստ են մատուցել բարձրակարգ <br>  հաշվապահական ծառայություններ և խորհրդատվություն <br> ամենատարբեր ոլորտներում գործունեություն ծավալող ընկերությունների։</p>
+          </div>
 
+          <div class="btn">
+            <button class="glow-on-hover btn btn-outline-secondary btn-lg">Իմանալ ավելին</button>
+          </div>
+      </div>
 
-    <!-- ********* FEATURES ********* -->
-
-    <div class="container features text-center">
+<!-- ********* FEATURES ********* -->
+      <div class="container features text-center" id="section2">
         <h3 class="feature-title">Մենք առաջարկում ենք`</h3>
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <img src="./img/logo.jpg" class="img-fluid rounded">
+
+          <div class="col-md-4 col-sm-12">
+            <img src="./img/harkayin-ber.png" alt="logo" class="img-fluid rounded">
             <p>Հարկային խորհրդատվություն</p>
           </div>
 
 
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <img src="./img/logo.jpg" class="img-fluid">
+          <div class="col-md-4 col-sm-12">
+            <img src="./img/partadir-vcharner.png" alt="logo" class="img-fluid">
             <p>Հաշվապահական հաշվառման վարում, հաշվետվությունների կազմում</p>
           </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <img src="./img/logo.jpg" class="img-fluid">
+          <div class="col-md-4 col-sm-12">
+            <img src="./img/harkayin-iravaxaxtum.png" alt="logo" class="img-fluid">
             <p>Հարկերի պլանավորում և օպտիմալացում</p>
-          </div>
-
-
-          <div class="col-lg-4 col-md-4 col-sm-12">    
           </div>
         </div> 
       </div>
 
-
-
-
-    <!-- ********* FOOTER ********* -->
-    
-      <footer class="page-footer">
+<!-- ********* FOOTER ********* -->
+      <footer class="page-footer" id="section3">
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-12">
@@ -97,18 +103,16 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <h6 class="text-uppercase font-weight-bold">Contact</h6>
             <p>1640 Riverside Drive, Hill Valley, California
-            <br/>info@mywebsite.com
+            <br/>pro_fin@outlook.am
             <br/>+ 374 99 12 34 56 
             <br/>+ 374 77 12 34 56</p>
           </div>
         </div>
         <div class="footer-copyright text-center">Copyright © 2020 Profin LLC - Design Angelika Khodzhaian</div>
-    </footer>      
-
-
+      </footer>      
 
 <!-- ********* SCRIPTS ********* -->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 </html>
