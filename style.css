@@ -609,13 +609,41 @@ header {
     }
 }  
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
     .feature-title {
-        margin-top: 6rem;
+        margin-top: 0;
     }
 
     .btn {
         margin-top: 1rem;
+    }
+
+    .description p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .feature-title {
+        margin-top: 7rem;
+    }
+
+    .btn {
+        margin-top: 1rem;
+    }
+
+    .description p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .description p {
+        font-size: .8rem;
+    }
+
+    .feature-title {
+        margin-top: 0;
     }
 }
 
