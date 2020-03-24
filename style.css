@@ -607,7 +607,27 @@ header {
     .btn {
         margin-top: 1rem;
     }
-}  
+}
+
+/* iPhone 11 */
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px)
+    and (-webkit-device-pixel-ratio : 3) {
+    .feature-title {
+        margin-top: 7rem;
+    }
+
+    .btn {
+        margin-top: 1rem;
+    }
+
+    .description p {
+        font-size: .8rem;
+    }
+}
+
+
 /* iPhone 7/8/9 PLUS */
 @media (max-width: 414px) {
     .feature-title {
