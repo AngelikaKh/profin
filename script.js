@@ -1,1 +1,2 @@
 let date = document.getElementById('date').innerHTML = new Date().toDateString();
+let fb = document.getElementById('fb').window.open('https://web.facebook.com/Profin-104834451050769/?epa=SEARCH_BOX', '_blank');
